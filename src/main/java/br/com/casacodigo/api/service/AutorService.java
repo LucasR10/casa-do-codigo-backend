@@ -11,6 +11,13 @@ import org.springframework.stereotype.Service;
 import br.com.casacodigo.api.model.Autor;
 import br.com.casacodigo.api.repository.AutorRepository;
 
+/**
+ * 
+ * @author Lucas Carvalho
+ * @since 10/09/200
+ **/
+
+
 @Service
 public class AutorService {
 

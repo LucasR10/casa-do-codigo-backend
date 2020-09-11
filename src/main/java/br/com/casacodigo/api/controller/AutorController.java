@@ -23,6 +23,12 @@ import br.com.casacodigo.api.model.Autor;
 import br.com.casacodigo.api.service.AutorService;
 import io.swagger.annotations.Api;
 
+/**
+ * 
+ * @author Lucas Carvalho
+ * @since 10/09/200
+ **/
+
 @RestController
 @RequestMapping("/autor")
 @Api(value = "Adicionar Autor")
