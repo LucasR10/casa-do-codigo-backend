@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping("/")
 @Api(value = "index")
-public class indexControler {
+public class IndexController {
 
     
     
