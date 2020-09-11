@@ -8,6 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 @Entity(name = "CATEGORIA")
 @Table(schema = "CADASTRO_BASE")
 public class Categoria {
@@ -19,6 +21,7 @@ public class Categoria {
 	private Long id;
 	
 	@Column(name = "NOME")
+	@NotEmpty
 	private String nome;
 
 	public Categoria() {
